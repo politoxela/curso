@@ -1,7 +1,13 @@
 body {
     background: #CCC;
+    font-family: sans-serif;
 }
 
 div p {
     font-family: cursive, monospace;
+}
+
+video {
+    height: auto;
+    width: auto;
 }
