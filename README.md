@@ -1,4 +1,3 @@
-curso
+curso de html 5
 =====
-
-Curso de html
+Ejercicios y tareas de curso de HTML5 desarrollado por Miriadax.
