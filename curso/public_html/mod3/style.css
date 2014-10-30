@@ -1,13 +1,58 @@
 body {
-    background: #CCC;
+    background: #F5F5F5;
+}
+
+body  p {
     font-family: sans-serif;
 }
 
 div p {
+
     font-family: cursive, monospace;
+    line-height: normal;
+    padding: 1px;
 }
 
-video {
+.foto{
+    display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 0;
+    border: solid 5px #4F5A91;
+    float: left;
+}
+
+iframe {
     height: auto;
     width: auto;
+}
+
+.contenedor{
+    padding: 5px;
+}
+.contenedor .centro {
+    width: 68%;
+    float: left;
+}
+.contenedor .izq {
+    width: 12%;
+    float: left;
+}
+
+.contenedor .der{
+    width: 20%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+article {
+    height: 80%;
+}
+
+footer {
+    height: 25%;
 }
