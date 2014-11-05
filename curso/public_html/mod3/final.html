@@ -5,38 +5,39 @@
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet" type="text/css">
     </head>
+
     <body>
         <header>
             <h1> <strong>Mi Biografia con fotos y videos</strong> </h1>
         </header>
-        <section>
-            <div class="contenedor">
-                <div class="izq">
-                    <img class="foto" src="https://scontent-a-mia.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1464632_616046401785740_1871700247_n.jpg?oh=6b760866429c8c7ee9086c3d7621ed06&oe=54E930DE"/>
-                </div>
-                <div class="centro">
-                    <p>
-                        <strong>Nombre:</strong> Marvin Leopoldo Chay Gonzalez.
-                    </p>
-                    <p>
-                        <strong>Nacionalidad:</strong> Guatemalteca.
-                    </p>
-                    <p>
-                        Me encanta aprender nuevas cosas especialmente en tecnologia, soy una persona muy curiosa. Me encanta GNU/linux actualmente en el trabajo utilizo
-                        Antergos y en casa utilizo manjaro. Actualmente Programo en Java y .NET, No existe barreras de aprendizaje si uno se lo propone.
-                    </p>
-                </div>
-                <div class="der">
-                    <iframe src="//www.youtube.com/embed/GHSEb0ovFKc" frameborder="0" allowfullscreen></iframe>
-                    <br>Mi primer video
-                </div>
-            </div>
-            <div class="clear"></div>
-        </section>
+        <div id='main'>
+            <article>
+                <p>
+                    <strong>Nombre:</strong> Marvin Leopoldo Chay Gonzalez.
+                </p>
+                <p>
+                    <strong>Nacionalidad:</strong> Guatemalteca.
+                </p>
+                <p>
+                    Me encanta aprender nuevas cosas especialmente en tecnologia, soy una persona muy curiosa. Me encanta GNU/linux actualmente en el trabajo utilizo Antergos y en casa utilizo manjaro. Actualmente Programo en Java y .NET, No existe barreras de aprendizaje si uno se lo propone.
+                </p>
+            </article>
+            <nav>
+                <img id="foto" src="https://scontent-a-mia.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1464632_616046401785740_1871700247_n.jpg?oh=6b760866429c8c7ee9086c3d7621ed06&oe=54E930DE" alt="Mi foto"/>
+            </nav>
+            <aside>
+                <video id="video" controls preload>
+                    <source src="test.webm" type=video/webm>
+                </video>
+                <br>Mi video personal
+            </aside>
+        </div>
+
         <footer>
-            <div>
-                es una prueba
-            </div>
+            <h2>
+                Galeria
+            </h2>
         </footer>
     </body>
+
 </html>

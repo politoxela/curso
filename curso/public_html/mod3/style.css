@@ -1,19 +1,18 @@
-body {
-    background: #F5F5F5;
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #c7c7c7;
 }
 
-body  p {
-    font-family: sans-serif;
+#video{
+    height: 15em;
+    width: 23.6em;
 }
 
-div p {
-
-    font-family: cursive, monospace;
-    line-height: normal;
-    padding: 1px;
-}
-
-.foto{
+#foto{
     display: block;
     width: 120px;
     height: 120px;
@@ -23,36 +22,38 @@ div p {
     float: left;
 }
 
-iframe {
-    height: auto;
-    width: auto;
+#main {
+    border: 2px solid #222028;
+    height: 70%;
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: row;
 }
-
-.contenedor{
-    padding: 5px;
+#main article {
+    flex: 3 1 60%;
+    order: 2;
 }
-.contenedor .centro {
-    width: 68%;
-    float: left;
+#main nav {
+    flex: 1 6 12%;
+    order: 1;
 }
-.contenedor .izq {
-    width: 12%;
-    float: left;
-}
-
-.contenedor .der{
-    width: 20%;
-    float: left;
-}
-
-.clear {
-    clear: both;
-}
-
-article {
-    height: 80%;
+#main aside {
+    flex: 1 6 28%;
+    order: 3;
 }
 
 footer {
-    height: 25%;
+    display: block;
+    min-height: 20%;
+}
+
+header {
+    border: 2px solid #171923;
+    border-radius: 50% 50% 0 0;
+    box-shadow: inset 0 0 10px 10px #6f6f6f;
+    display: block;
+    min-height: 10%;
+    text-align: center;
+    -moz-box-shadow: inset 0 0 10px 10px #6f6f6f;
+    -webkit-box-shadow: inset 0 0 10px 10px #6f6f6f;
 }
