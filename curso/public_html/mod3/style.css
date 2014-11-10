@@ -4,7 +4,7 @@ html {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    background: url(fondo.jpg) repeat;
+    background: url(fondo4.png) repeat;
 }
 
 #video{
@@ -58,19 +58,33 @@ header {
     -webkit-box-shadow: inset 0 0 10px 10px #6f6f6f;
 }
 
-.foto-Galeria{
-    height: 120px;
-    width: 120px;
-    margin-left: 50px;
+.Galeria{
+    height: 140px;
+    width: 140px;
+    margin-left: 25px;
     float: left;
     margin-bottom: 20px;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
+    padding: 5px;
+    margin-top: 5px;
     border: 1px solid #000;
+    border-radius: 10%;
+    -moz-box-shadow: 0 0 5px 5px #888;
+    -webkit-box-shadow: 0 0 5px 5px#888;
+    box-shadow: 0 0 5px 5px #888;
 }
 
-.foto-Galeria img{
+.Galeria img{
+    height: 120px;
+    width: 120px;
+}
+
+.Galeria iframe{
+    height: 120px;
+    width: 120px;
+}
+
+.Galeria video{
     height: 120px;
     width: 120px;
 }
