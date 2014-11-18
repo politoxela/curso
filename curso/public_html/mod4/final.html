@@ -7,16 +7,18 @@
     <body>
         <h3>Calculadora</h3>
 
-        Desplegable que calcula el area de una pared:
-        
-        <script type="text/javascript">
-            var x = prompt("Ingrese la altura de la pared");
-            var y = prompt("Ingrese la anchura de la pared");
-            document.write("El area de la pared de una altura de "+ x 
-                    +" y una anchura de "+ y +" es de "+ x*y);
-        </script>
+        Calcula superficie de la pared
         <p>
-            Recargar para sacar desplegable.
+            <script type="text/javascript">
+                var x = prompt("Ingrese los metros de altura de la pared");
+                var y = prompt("Ingrese los metros de anchura de la pared");
+                var z = x * y;
+                document.write("El area de la pared de una altura de " + x
+                        + " metros y una anchura de " + y + " metros es de " + z + " metros cuadrados");
+            </script>
+        </p>
+        <p>
+            Recargar pagina para volver a calcular los datos.
         </p>
     </body>
 </html>
